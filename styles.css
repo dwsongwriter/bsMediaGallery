@@ -1,0 +1,42 @@
+.bg-header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Add shadow for cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Rating stars */
+.rating {
+    font-size: 1.2rem;
+}
+
+/* Icons section buttons */
+.icon-section button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+} 
+
+footer .ftImage {
+    width: 75%;
+}
